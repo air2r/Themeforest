@@ -1,0 +1,310 @@
+/*=============================================================
+fonts
+=============================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,600|Poppins:100,200,300,400,500,600,700,800');
+
+/*=============================================================
+html and body
+=============================================================*/
+body {
+    background: #fff;
+    color: #001926;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-heading > h6 {
+    letter-spacing: 2px;
+}
+
+.section-heading > h2 {
+    margin: 5px 0 10px;
+}
+
+.section-heading.section-heading-2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.section-heading.white > h2 {
+    color: #fff;
+}
+
+.section-heading.white > h5 {
+    color: #feffff;
+}
+
+.zoom {
+    overflow: hidden;
+
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 75px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+text-transform: uppercase;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+
+
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 20px;
+
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 15px;
+    color: #999898;
+
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+}
+
+button {
+    outline: none !important;
+}
+
+.btn {
+    white-space: inherit;
+}
+
+input,
+textarea {
+    outline: none;
+    resize: none;
+
+}
+
+
+textarea {
+    outline: none;
+    resize: none;
+    line-height: 12px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #b2b2b2;
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+}
+
+a {
+    font-weight: 600;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #3d3d3d;
+    transition: all .3s ease;
+}
+
+a:hover,
+a:active {
+    color: #12BECD;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+
+::placeholder {
+    color: #777777;
+    text-transform: capitalize;
+}
+
+::-moz-placeholder {
+    color: #777777;
+    text-transform: capitalize;
+}
+
+:-ms-input-placeholder {
+    color: #777777;
+    text-transform: capitalize;
+}
+
+::-webkit-input-placeholder {
+    color: #777777;
+    text-transform: capitalize;
+}
+
+
+.donate-blood form input::placeholder {
+    color: #fff;
+}
+
+.medicine-input-type input::placeholder,
+.medicine-input-search input::placeholder,
+.medicine-location > input::placeholder {
+    color: #d5d5d5;
+}
+
+.medicine-location > input
+
+/*============= styles ===================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.mt-20 {
+    margin-top: 20px
+}
+
+.mt-30 {
+    margin-top: 30px
+}
+
+.mt-40 {
+    margin-top: 40px
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mtb-20-30 {
+    margin: 20px 0 30px;
+}
+
+.mtb-20-0 {
+    margin: 20px 0;
+}
+
+/*=============== preloader =================*/
+
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: radial-gradient(#222, black);*/
+    background: #E3EBEF;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.back-to-top {
+    background: #12BECD none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 10px;
+    padding: 13px 16px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    z-index: 9999999;
+    transition: all .3s ease
+}
+
+.back-to-top:hover {
+    background: #023955;
+
+}

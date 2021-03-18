@@ -1,0 +1,689 @@
+/* (1366x768) WXGA Display */
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {}
+
+/*		Medium Device	*/
+@media only screen and (max-width: 1580px) {
+    .hospital img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* ===== Headin area ====== */
+    .top-headig p {
+        font-size: 15px;
+    }
+
+    .main-menu nav ul li {
+        margin-right: 17px;
+
+    }
+
+    .main-menu nav ul li a {
+        font-size: 14px;
+    }
+
+    .main-menu p {
+        margin-left: 0;
+
+    }
+
+    .hero-area::before {
+        opacity: 0.8;
+
+    }
+
+    .hero-area::after {
+        background: rgba(0, 0, 0, 0) url("../img/hero/hero-1.jpg") no-repeat scroll right center / cover;
+
+    }
+
+    .hero-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    /* ===== Headin area ====== */
+    /* ===== Ambulance Services area ====== */
+
+    .ambulance-fill {
+        margin-left: 0;
+    }
+
+    .ambulance-time {
+        margin-right: -15px;
+    }
+
+    .about-bg img {
+        width: 100%;
+    }
+
+    /* =====  Ambulance Services area  ====== */
+
+    /* =====  Doctor area  ====== */
+    .single-doctor {
+        height: 360px;
+
+    }
+
+    .doctor .owl-nav {
+
+        display: none;
+    }
+
+    /* =====  Doctor area  ====== */
+
+
+    /* =====  Blog  area  ====== */
+    .popular-post-all-content .like-comment {
+        display: inherit;
+
+    }
+
+    .popular-post-all-content .single-user-dat {
+        margin-bottom: 7px;
+        margin-top: 0;
+    }
+
+    .view > h6 {
+        font-size: 12px;
+    }
+
+    .view span {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    /* =====  Blog  area  ====== */
+    /* =====  medicin-corner   area  ====== */
+    .medicin-corner-area::before,
+    .medicin-bg::after {
+        width: 59%;
+    }
+
+    .medicin-corner-area::after {
+        left: 41%;
+
+    }
+
+    .medicine-name span {
+        font-size: 13px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    .medicine-price {
+        width: 250px;
+    }
+
+    .total-price > h6 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .total-price span {
+        margin-left: 10px;
+    }
+
+    .search-med-input > input.text-left-1 {
+        left: 72%;
+    }
+
+    .your-location input.submit {
+        width: 31%;
+    }
+
+    .search-med-input {
+        width: 69%;
+    }
+
+    .medicine-name p {
+        font-size: 13px;
+    }
+
+    .footer-email {
+        display: inherit;
+    }
+
+
+    .footer-email input.submit {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /*===Footer- Area====*/
+    .footer-social ul li a {
+        height: 34px;
+        margin: -1px;
+        width: 32px;
+    }
+
+    /*===Footer- Area====*/
+}
+
+/*		Tablet Layout: 768px.	*/
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+
+    /*==== Top heading area ====*/
+    .top-headig {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .top-headig ul {
+        margin-top: 10px;
+    }
+
+    .top-headig ul li a {
+        padding: 8px 0;
+
+    }
+
+    /*==== Top heading area ====*/
+    /*==== logo-area area ====*/
+    
+    .slider-area1.banner {
+    height: 750px;
+}
+    
+    .slider-area1.banner .row {
+    height: 750px;
+}
+
+    .logo-area {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .logo-area .clock-content p {
+        text-align: left;
+    }
+
+    .main-menu {
+        background: #04becf none repeat scroll 0 0;
+        position: inherit;
+    }
+
+    .main-menu::after {
+        width: 100%;
+
+    }
+
+    .main-menu .text-right p {
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .main-menu p {
+        margin-left: 0;
+
+    }
+
+    /*==== logo-area area ====*/
+    /*==== Hero  area ====*/
+
+    .hero-area::before {
+        opacity: 0.8;
+
+    }
+
+    .hero-content h1 {
+        font-size: 41px;
+        line-height: 56px;
+    }
+
+    /*==== Heroarea ====*/
+    /*==== ambulance-service ====*/
+
+    .ambulance-service {
+        margin-top: 50px;
+        position: inherit;
+
+    }
+
+    .input-service {
+        display: inherit;
+    }
+
+    .u-name,
+    .u-number,
+    .u-pick-up,
+    .u-date,
+    .u-time {
+        width: 100%;
+        margin-bottom: 30px
+    }
+
+    .input-service .submit {
+        cursor: pointer;
+        padding: 10px;
+        width: 100% !important;
+        margin-left: 0;
+
+    }
+
+    .input-service input,
+    .blood-form input {
+        margin-right: 0;
+
+    }
+
+    .time.position::after,
+    .date.position::after {
+        right: 15px;
+    }
+
+    .service-time-content {
+        margin-top: 30px;
+
+    }
+
+    .our-service-content {
+        padding: 50px 10px 50px 50px;
+
+    }
+
+    /*==== ambulance-service ====*/
+    /*==== About-Area ====*/
+    .about-bg {
+        margin-top: 50px;
+    }
+
+    .about-bg > img {
+        width: 100%;
+    }
+
+    .about-bg::after {
+        display: none;
+
+    }
+
+    /*==== About-Area ====*/
+    /*==== donate-blood-Area ====*/
+
+    .donate-blood .container {
+        position: relative;
+        z-index: 999;
+    }
+
+    .donate-blood::after {
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .donate-blood::before {
+        opacity: 0.9;
+        z-index: 2;
+        width: 100%
+    }
+
+    .donate-blood .number {
+        margin: 30px 0 0;
+    }
+
+    .donate-blood select.test {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .test.mr-0 {
+        margin-top: 30px;
+    }
+
+    .donate-blood .blood-form > input {
+        width: 100%;
+    }
+
+    .checkbox-box input {
+        margin-right: 15px !important;
+    }
+
+    /*==== donate-blood-Area ====*/
+    /*==== Our Departments-Area ====*/
+    .tab-area {
+        min-height: inherit;
+        position: relative;
+    }
+
+    ul.tabs {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+        width: inherit;
+    }
+
+    ul.tabs li {
+        display: inline-block;
+        padding: 6px;
+
+    }
+
+    .tab-content.current {
+        margin-top: 50px;
+        position: inherit;
+        left: 0;
+    }
+
+    .tab-item-content {
+        margin-left: 5px;
+    }
+
+    .single-counter > h4 {
+        font-size: 15px;
+    }
+
+    .counter-area {
+        margin: 40px 0 50px;
+    }
+
+    /*==== Our Departments-Area ====*/
+    .client-testimonial::before,
+    .client-testimonial::after,
+    .medicin-corner-area::after {
+        display: none
+    }
+
+    .single-client {
+        margin-left: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .single-client p,
+    .single-client > h6 {
+        color: #fff;
+    }
+
+    .single-client h5 {
+        color: #003f5f;
+    }
+
+    .single-client img {
+        display: inline !important;
+        text-align: center;
+    }
+
+    /*==== dOur Departments-Area ====*/
+
+    /* =====  Blog  area  ====== */
+    .popular-post-all-content .like-comment {
+        display: inherit;
+
+    }
+
+    .popular-post-all-content .single-user-dat {
+        margin-bottom: 7px;
+        margin-top: 0;
+    }
+
+    .tmmt-40 {
+        margin-top: 40px
+    }
+
+    .tmmt-50 {
+        margin-top: 50px
+    }
+
+    .tmmt-60 {
+        margin-top: 60px
+    }
+
+    /* =====  Blog  area  ====== */
+    /* =====  medicin-corner-area  area  ====== */
+    .medicin-bg::after {
+        width: 100%;
+
+    }
+
+    .medicin-corner-area::before {
+        width: 100%;
+    }
+
+    .medicin-bg .section-heading {
+        position: relative;
+        z-index: 9;
+    }
+
+    .medicine-price {
+        width: 340px;
+    }
+
+    .buy-medicine {
+        margin-top: 50px;
+    }
+
+    .single-doctor {
+        height: 362px;
+    }
+
+    /*    Footer Area  */
+
+    .photo-gallery .zoom > a {
+        display: block;
+    }
+
+    .photo-gallery .zoom img {
+        width: 100%
+    }
+
+    /*    Footer Area  */
+
+
+
+    /* ========== About Page Start ========*/
+    .faq-area .zoom > img {
+        width: 100%;
+    }
+
+    .mission-content {
+        margin-right: 0;
+    }
+
+    .mission-content > h2 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .mission-icon {
+        margin: 80px 0 0;
+    }
+
+    /* ========== About Page End ========*/
+    .blog-details-quote {
+        margin: 60px 0;
+        padding: 0 80px;
+
+    }
+
+    .advertisement-img {
+        display: flex !important;
+    }
+
+    .advertisement-img img {
+        padding: 0 5px;
+        margin-bottom: 20px
+    }
+
+    .search-med-input > input.text-left-1 {
+        left: 78%;
+
+    }
+}
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+    .top-headig .text-right {
+        text-align: center !important;
+    }
+
+    .hero-content h1 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .clock-area {
+        justify-content: center;
+        margin-bottom: 30px
+    }
+
+    .logo-area .search-bar input {
+        border: 1px solid #ededed;
+        padding: 10px 15px;
+        width: 100%;
+    }
+
+    .search-bar p {
+        right: 30px;
+        top: 10px;
+    }
+
+    .logo-area .cart {
+        border-left: 0 none;
+        color: #696969;
+        position: absolute;
+        right: 15px;
+        top: -110px;
+    }
+
+    .mtm-40 {
+        margin-top: 40px
+    }
+
+    /*  doctor */
+    .single-doctor {
+        height: inherit;
+    }
+
+    .single-doctor:hover .doctor-social {
+        height: inherit;
+        margin-top: 20px;
+        opacity: 1;
+        visibility: inherit;
+    }
+
+    .single-doctor:hover .single-doctore-content {
+        margin-top: 54px;
+    }
+
+    .doctor-social {
+        height: inherit;
+        margin-top: 20px;
+        opacity: 1;
+        transition: all 0.3s ease 0s;
+        visibility: inherit;
+    }
+
+    .about-bg img {
+        width: 100%;
+    }
+
+    .doctor .owl-nav {
+        display: none;
+
+    }
+
+    .doctor .owl-next {
+        right: 15px;
+    }
+
+    /*   doctor   */
+    /*   medicine-input   */
+    .medicine-input-type,
+    .your-location {
+        display: inherit;
+        margin-bottom: 0;
+    }
+
+    .search-medicine {
+        display: inline;
+    }
+
+    .search-med-input {
+        width: 100%;
+    }
+
+    .medicine-input-type input,
+    .search-medicine input {
+        width: 100%;
+        margin-bottom: 30px
+    }
+
+    /*
+    .search-med-input > input.text-left-1 {
+        right: -6px;
+        left: inherit
+    }
+*/
+
+    .search-med-input > input.text-left-1 {
+        left: 95%;
+        transform: translate(-95%);
+    }
+
+    .submit.mr10 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    input.add-to-list {
+        margin-left: 0;
+    }
+
+    .medicine-grup {
+        display: inherit;
+    }
+
+    .medicine-price {
+        margin: 40px 0;
+        width: 100%
+    }
+
+    .medicine-location {
+        margin-bottom: 30px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .medicine-ne span {
+        margin-right: 0;
+    }
+
+    .your-location input.submit {
+        width: 100%;
+    }
+
+    /*   medicine-input   */
+
+    .blog-details-quote {
+        margin: 50px 0;
+        padding: 0 40px;
+    }
+
+    .blog-details-quote::after {
+        font-size: 25px;
+        left: 0;
+        top: -10px;
+    }
+
+    .blog-details-quote::before {
+        bottom: -10px;
+        font-size: 25px;
+        right: 0;
+    }
+
+
+}
+
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

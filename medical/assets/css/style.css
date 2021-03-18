@@ -1,0 +1,2012 @@
+/*
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+    1.1 Home Page  
+        1.1 Header Area
+        1.2 Hero Area Start
+        1.3 ambulance-service Area
+        1.4 Service Area Start
+        1.5 About Area Start
+        1.6 Donate Blood Area Start
+        1.7 Service area Start
+        1.8 Chat-docto area Start
+        1.9 Our Departments Area Start
+        1.10 Our Doctor Area Start 
+        1.11 Client Testimonial Area Start
+        1.12 Blog Area Start
+        1.13 Medicin Area Start
+        1.14 Footer Area Start
+   
+      
+        
+    CSS About
+    ===================
+        1.1 About-Page
+      
+         
+    CSS Blog
+    ===================
+    1.1 Blog-Page   
+
+
+    CSS Blog Details
+    ===================
+    1.2 Blog-Details-Page 
+    
+    
+/*================= 1.1 Header Area ===============*/
+
+.top-headig .row,
+.logo-area,
+.main-menu .row,
+.hero-area .row {
+    align-items: center;
+    display: flex;
+}
+
+
+
+.clock-content p,
+.clock-content h6,
+.main-menu nav ul li a {
+    color: #3d3d3d;
+}
+
+
+.top-headig {
+    background: #003f5f;
+    color: #fff;
+}
+
+.top-headig ul li {
+    display: inline-block;
+}
+
+
+.top-headig ul li a {
+    color: #fff;
+    margin-left: 30px;
+    padding: 20px 0;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.top-headig li.appoi {
+    background: #04becf none repeat scroll 0 0;
+    margin-left: 30px;
+    padding-right: 30px;
+}
+
+.clock-area {
+    align-items: center;
+    display: flex;
+}
+
+.logo-area {
+    padding: 40px 0;
+}
+
+.logo-area .clock {
+    margin-right: 10px;
+}
+
+.logo-area .clock-content p {
+    line-height: 23px;
+}
+
+.logo-area .clock-content h6 {
+    font-size: 15px;
+}
+
+.logo-area .search-bar input {
+    width: 100%;
+}
+
+.logo-area .search-bar input {
+    border: none;
+    border-left: 1px solid #696969;
+    padding: 0 20px;
+    width: 100%;
+}
+
+
+.search-bar p {
+    color: #696969;
+    cursor: pointer;
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.logo-area .cart {
+    border-left: 1px solid #696969;
+    color: #696969;
+}
+
+
+.main-menu {
+    background: #f0f0f0;
+    position: relative;
+    z-index: 1;
+}
+
+.main-menu::after {
+    background: #04becf;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25%;
+    z-index: -1;
+}
+
+
+.main-menu nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 24px;
+}
+
+
+.main-menu nav ul li.active a {
+    color: #12BECD;
+    position: relative;
+}
+
+
+.main-menu nav ul li.active a::after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 15px;
+    content: "";
+    background: #12BECD;
+
+}
+
+.main-menu nav ul li.active a::before {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    height: 15px;
+    content: "";
+    background: #12BECD;
+
+}
+
+.main-menu nav ul li.active .sub a {
+    color: none;
+}
+
+.main-menu nav ul li.active .sub a::after {
+    background: none;
+}
+
+.main-menu nav ul li.active .sub a::before {
+    background: none;
+
+}
+
+.main-menu nav ul li a {
+    display: block;
+    font-weight: 400;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+
+.main-menu nav ul li a:hover {
+    color: #04BECF
+}
+
+.main-menu nav ul li:last-child a {
+    padding-right: 0;
+}
+
+
+.main-menu p {
+    background: #04becf;
+    color: #fff;
+    margin-left: 60px;
+    padding: 19px 0;
+    font-weight: 600
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    background: none;
+    transition: background 500ms ease ease-out;
+    -webkit-transition: background 500ms ease ease-out;
+    z-index: 999;
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.29);
+}
+
+#header.scrolled {
+    position: fixed;
+    top: -70px;
+    background: #fff;
+    transform: translateY(70px);
+    transition: transform 500ms ease-out, background 900ms ease-out;
+    -webkit-transition: transform 500ms ease-out, background 900ms ease-out;
+    z-index: 9999;
+}
+
+.main-menu.scrolled + .logo-area {
+    padding-top: -710px !important;
+}
+
+/*=========Dropdown Menu=======*/
+.main-menu .nav-menu ul.sub {
+    position: absolute;
+    width: 200px;
+    top: 130%;
+    left: -8px;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.main-menu .nav-menu ul li ul.sub li {
+    display: block;
+    margin: 5px;
+    text-align: left;
+}
+
+.main-menu .nav-menu ul li ul.sub a {
+    color: #333333;
+    padding: 5px 15px;
+}
+
+.main-menu nav ul li:hover ul.sub {
+    top: 100%;
+    z-index: 99999;
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-menu .nav-menu ul li ul.sub a:hover {
+    color: #04BECF;
+}
+
+/*===== mobile menu slicknav =====*/
+
+.mobile_menu {
+    position: absolute;
+    right: 30px;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.slicknav_menu .slicknav_menutxt {
+    display: none;
+}
+
+.slicknav_menu {
+    background: transparent;
+    margin-top: 10px;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #ffffff;
+    height: 2px;
+    margin: 3px 0;
+    transition: all 0.3s ease 0s;
+    width: 30px;
+}
+
+
+.slicknav_btn {
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: -48px;
+    position: relative;
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(2) {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(1) {
+    -webkit-transform: rotate(45deg) translate(1px, 7px);
+    transform: rotate(45deg) translate(1px, 7px);
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(3) {
+    -webkit-transform: rotate(-45deg) translateY(-6px);
+    transform: rotate(-45deg) translateY(-6px);
+}
+
+.slicknav_menu {
+    margin: 0;
+    padding: 0;
+}
+
+.slicknav_icon-bar {
+    background: #003F5F !important;
+}
+
+.slicknav_nav {
+    background: #04BECF;
+    float: right;
+    margin-top: 1px !important;
+    padding: 0;
+    width: 320px;
+}
+
+.slicknav_nav a:visited {
+    color: #fff;
+}
+
+.slicknav_nav a:hover {
+    background: #003F5F;
+    border-radius: 0;
+    color: #fff;
+}
+
+.slicknav_nav a {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.slicknav_nav .slicknav_arrow {
+    float: right;
+}
+
+.slicknav_nav .slicknav_row:hover,
+.slicknav_nav .slicknav_row:hover .slicknav_arrow {
+    border-radius: 0;
+    background-color: #3c3333;
+}
+
+.mobile_menu .reservation a {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.mobile_menu .reservation img {
+    margin-left: 10px;
+}
+
+.mobile_menu .reservation:hover img {
+    margin-left: 30px;
+}
+
+.slicknav_nav .slicknav_arrow {
+    font-size: 1.1em;
+}
+
+/*================= 1.1 Header Area END ==============*/
+/*================= 1.2 Hero Area Start ==============*/
+
+.hero-area {
+    background: #003f5f;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-area::after {
+    background: rgba(0, 0, 0, 0) url("../img/hero/hero-1.jpg") no-repeat scroll right center;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.hero-area::before {
+    background: #003f5f none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.hero-area .row {
+    height: 770px
+}
+
+.hero-content h1 {
+    color: #fff;
+}
+
+.hero-content p {
+    color: #ececec;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px 100px 45px 0;
+}
+
+.hero-content span {
+    color: #00f7fe;
+}
+
+
+.hero-content .theme-btn {
+    color: #ffffff;
+    background: none;
+}
+
+.theme-btn {
+    border: 1px solid #12BECD;
+    padding: 12px 20px;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    background-color: #ffffff;
+    color: #001926;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-btn:hover {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.theme-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #12BECD;
+    border: 1px solid #12BECD;
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: scale(0, 1);
+    -moz-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    -o-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -moz-transition: -moz-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -ms-transition: -ms-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    -o-transition: -o-transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+}
+
+.theme-btn:hover::after {
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.hr.a7 {
+    margin-right: 0;
+}
+
+.small-hr .post-hr {
+    margin-top: 60px;
+    width: 100%;
+}
+
+/* ================= 1.3 ambulance-service Area Start ==============*/
+
+.ambulance-service {
+    margin-top: -100px;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+
+.ambulance-fill {
+    margin-left: 15px;
+}
+
+.ambulance-time {
+    margin-top: 25px;
+}
+
+.ambulance-service .row {
+    background: #fff none repeat scroll 0 0;
+    max-width: 1140px;
+    padding: 50px 0;
+}
+
+.input-service {
+    display: flex;
+}
+
+.input-service input,
+.blood-form input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #CECDCD;
+    margin-right: 15px;
+    padding: 15px 0 12px 15px;
+}
+
+
+.u-name {
+    width: 18%;
+}
+
+.u-number {
+    width: 16%;
+}
+
+.u-pick-up {
+    width: 18%;
+}
+
+.u-date {
+    width: 90%;
+}
+
+.u-time {
+    width: 70%;
+}
+
+.input-service .submit {
+    cursor: pointer;
+    margin-left: -39px;
+    padding: 0;
+    width: 140px !important;
+    z-index: 99999;
+    background: #12BECD;
+    color: #ffffff;
+    border: 1px solid #12BECD;
+    transition: all .3s ease;
+}
+
+.input-service .submit:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(4, 190, 207, 0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(4, 190, 207, 0.5);
+    box-shadow: 0px 0px 10px 0px rgba(4, 190, 207, 0.5);
+}
+
+.position {
+    position: relative;
+    z-index: 1;
+}
+
+.position::after {
+    content: "\f073";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 30px;
+    top: 16px;
+    z-index: -1;
+    cursor: pointer;
+    color: #777777
+}
+
+.date.position::after {
+    right: 30px;
+
+}
+
+.time.position::after {
+    right: 67px;
+
+}
+
+/* ================= 1.4 Service Area Start ==============*/
+
+.service-time-content {
+    margin-top: 180px;
+    padding: 50px 0;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.service-time-content h4 {
+    color: #001926;
+    font-weight: 600;
+    margin: 20px 0 15px;
+}
+
+.service-time-content p {
+    color: #8d9396;
+}
+
+.service-time-content a {
+    color: #04becf;
+    font-size: 14px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.service-time-content > a:hover {
+    color: #003f5f;
+}
+
+/*========= 1.5 About Area Start =========== */
+
+.about-area .row {
+    align-items: center;
+}
+
+.about-content .section-heading > h2 {
+    margin-bottom: 25px;
+}
+
+.about-area .about-doctor {
+    align-content: center;
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon-content {
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.icon-content > img {
+    margin-right: 10px;
+}
+
+.about-bg {
+    position: relative;
+}
+
+.about-bg::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/about/about-shap.png);
+    content: "";
+    background-repeat: no-repeat;
+}
+
+/* ========= 1.6 Donate Blood Area Start =========== */
+
+.donate-blood {
+    position: relative;
+}
+
+.donate-blood::after {
+    position: absolute;
+    content: "";
+    background: url(../img/donate-blood/donate-blood-bg.jpg);
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+}
+
+.donate-blood::before {
+    position: absolute;
+    content: "";
+    background: #12BECD;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+}
+
+.donate-blood .blood-form > input {
+    border: 1px solid #fff;
+    color: #fff;
+    width: 48%;
+}
+
+.donate-blood .number {
+    margin-right: 0;
+}
+
+.donate-blood .select-box {
+    margin: 30px 0;
+
+}
+
+.donate-blood select.test {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #ffffff;
+    margin-right: 15px;
+    padding: 10px;
+    width: 48%;
+}
+
+.select-box select option {
+    background: #ffffff none repeat scroll 0 0 !important;
+    color: #000;
+}
+
+.checkbox-box {
+    color: #fff !important;
+}
+
+/*========= 1.7 Service area Start ===========*/
+
+.our-service-content {
+    margin-top: 80px;
+    padding: 50px 20px;
+    transition: all .3s ease;
+}
+
+.our-service-content:hover,
+.service-time-content:hover {
+    -webkit-box-shadow: 2px 2px 20px 4px rgba(4, 190, 207, 0.28);
+    -moz-box-shadow: 2px 2px 20px 4px rgba(4, 190, 207, 0.28);
+    box-shadow: 2px 2px 20px 4px rgba(4, 190, 207, 0.28);
+}
+
+.our-service-content > h4 {
+    margin: 25px 0 10px;
+}
+
+/*========= 1.8 Chat-docto area Start ===========*/
+
+.chat-doctor {
+    background: #fff none repeat scroll 0 0;
+    -webkit-box-shadow: 2px 2px 20px 4px rgba(4, 190, 207, 0.28);
+    -moz-box-shadow: 2px 2px 20px 4px rgba(4, 190, 207, 0.28);
+    box-shadow: 2px 2px 20px 4px rgba(4, 190, 207, 0.28);
+    padding: 30px 20px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    bottom: 12%;
+    width: 320px;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.chat-doctor > p {
+    margin: 5px 0 26px;
+}
+
+.chat-doctor > input {
+    background: #ebebeb none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    color: #777777;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.chat-doctor select {
+    background: #ebebeb none repeat scroll 0 0;
+    border: 1px solid #ebebeb;
+    color: #777777;
+    padding: 10px;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.close-btn img {
+    background: #12becd;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: right;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.close-btn.text-right > img:hover {
+    background: #A9A9A9;
+}
+
+/*  ========= 1.9 Our Departments Area Start =========== */
+
+.tab-area {
+    margin-top: 80px;
+    min-height: 555px;
+    position: relative;
+}
+
+.tab-item {
+    align-items: center;
+    display: flex;
+}
+
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 200px
+}
+
+ul.tabs li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 2px solid #d6d6d6;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 20px;
+}
+
+ul.tabs li.current {
+    background: #12BECD;
+    color: #fff;
+    border-bottom: 2px solid #12BECD;
+}
+
+ul.tabs li.current img {
+    filter: invert(100%) contrast(420%);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.current {
+    display: inherit;
+    left: 250px;
+    position: absolute;
+    top: -6px;
+}
+
+.tab-item-content > h6 {
+    color: #001926;
+    font-weight: 600;
+}
+
+.tab-item-content {
+    margin-left: 10px;
+}
+
+.current .tab-item-content h6 {
+    color: #fff;
+}
+
+.tab-item-content > p {
+    font-weight: 600;
+}
+
+.our-department-area {
+    background: #ebfdff none repeat scroll 0 0;
+}
+
+.pregnancy-tab > p {
+    margin: 20px 0 30px;
+}
+
+.about-doctor.pregnancy {
+    display: flex;
+}
+
+.about-doctor {
+    width: 100%;
+}
+
+.single-about {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.single-about > p {
+    margin-left: 10px;
+}
+
+.counter-area {
+    margin-top: 40px;
+}
+
+.Successful-pregnancy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-counter {
+    margin-top: 30px;
+}
+
+.counter {
+    border: 1px solid #758b91;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 14px 0;
+    text-align: center;
+    width: 65px;
+}
+
+.single-counter > p {
+    color: #919191;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.single-counter > h4 {
+    text-transform: uppercase;
+}
+
+.department-right-img > img {
+    width: 100%;
+}
+
+/* ========= 1.10 Our Doctor Area Start ===========*/
+
+.doctor {
+    margin-top: 80px;
+}
+
+.single-doctor {
+    padding: 5px 5px 30px;
+    text-align: center;
+    height: 400px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 25, 38, 0.1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 25, 38, 0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 25, 38, 0.1);
+}
+
+.single-doctor:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(4, 190, 207, 0.3);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(4, 190, 207, 0.3);
+    box-shadow: 0px 0px 10px 0px rgba(4, 190, 207, 0.3);
+}
+
+
+.doctor-social li {
+    display: inline-block;
+}
+
+.doctor-social a {
+    display: block;
+    padding: 10px;
+}
+
+.single-doctore-content {
+    margin-top: 54px;
+    transition: all .3s ease;
+}
+
+.doctor-social {
+    height: 4px;
+    margin-top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+}
+
+.single-doctor:hover .single-doctore-content {
+    margin-top: 30px;
+}
+
+.single-doctor:hover .doctor-social {
+    margin-top: 10px;
+    opacity: 1;
+    visibility: visible;
+    height: 50px;
+}
+
+
+.doctor .owl-nav {
+    color: #023955;
+    font-size: 15px;
+    left: -30px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: -1;
+}
+
+.doctor .owl-next {
+    position: absolute;
+    right: -50px;
+}
+
+/*========= 1.11 Client Testimonial Area Start =========*/
+
+.client-testimonial {
+    background: #12becd none repeat scroll 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.client-testimonial::before {
+    background: #023955 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 52%;
+}
+
+
+.client-testimonial::after {
+    background: rgba(0, 0, 0, 0) url("../img/client/shape.png") no-repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 48%;
+    margin-left: -23px;
+    position: absolute;
+    top: 10px;
+    width: 53px;
+    z-index: 4;
+}
+
+.client-testimonial .theme-btn {
+    border: 1px solid #12becd;
+}
+
+.client-testimonial .theme-btn:hover {
+    border: 1px solid #fff;
+}
+
+.single-client {
+    margin-left: 50px;
+}
+
+.single-client p {
+    color: #d5e4ec;
+}
+
+.single-client img {
+    margin-bottom: 30px;
+    max-width: 92px;
+}
+
+.single-client h5 {
+    color: #12becd;
+    margin: 30px 0 10px;
+    text-transform: capitalize;
+}
+
+/*========= 1.12 Blog Area Start =========*/
+
+.popular-post > h6 {
+    background: #12becd none repeat scroll 0 0;
+    color: #fff;
+    padding: 15px 0 15px 30px;
+}
+
+
+.popular-post-all-content {
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.like-comment {
+    align-items: center;
+    color: #747474;
+    display: flex;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.single-user-dat > h6 {
+    font-size: 13px;
+    margin: 0 6px;
+}
+
+.single-user-dat {
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+.popular-post-all-content .zoom {
+    min-width: 90px;
+}
+
+.popular-post-all-content img {}
+
+.popular-content {
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.feature-post:hover.feature-post .zoom h5 {
+    left: 0
+}
+
+.feature-post .zoom {
+    position: relative;
+}
+
+.feature-post .zoom h5 {
+    background: #023955 none repeat scroll 0 0;
+    color: #fff;
+    left: -174px;
+    padding: 6px 15px;
+    position: absolute;
+    top: 0;
+    transition: all .3s ease
+}
+
+.feature-post > a {
+    margin-top: 20px;
+}
+
+.feature-post > p {
+    margin-top: 30px;
+}
+
+/*========= 1.13 Medicin Area Start =========*/
+
+.medicin-corner-area {
+    position: relative;
+    background: #12becd;
+    z-index: 1
+}
+
+.medicin-corner-area::before {
+    background: rgba(0, 0, 0, 0) url("../img/medicine/medicineng.jpg") repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 57%;
+}
+
+.medicin-corner-area::after {
+    background: rgba(0, 0, 0, 0) url("../img/medicine/shap.png") no-repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 43%;
+    margin-left: -29px;
+    position: absolute;
+    top: 10%;
+    width: 99px;
+    z-index: -1;
+}
+
+.medicin-bg::after {
+    background: #023955;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 57%;
+    z-index: 2;
+    opacity: .85;
+}
+
+.buy-medicine {
+    position: relative;
+    z-index: 99;
+}
+
+.medicin-bg .theme-btn {
+    border: 1px solid #fff;
+
+}
+
+.section-heading.white > p {
+    color: #ffffff;
+}
+
+.buy-medicine > h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+
+.medicine-nunber {
+    border-bottom: 1px solid #627078;
+}
+
+.medicine-nunber:last-child {
+    border-bottom: medium none;
+}
+
+.medicine-input-type {
+    margin-bottom: 15px;
+}
+
+.medicine-input-type input,
+.search-medicine input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-right: 12px;
+    padding: 10px;
+    width: 32%;
+}
+
+.tel {
+    margin-right: 0 !important;
+}
+
+.search-med-input > input.text-left-1 {
+    left: 77%;
+    margin-top: 6px;
+    padding: 4px 12px;
+    position: absolute;
+    top: 0;
+    width: 90px;
+    z-index: 1;
+}
+
+.search-med-input {
+    position: relative;
+    width: 66%;
+}
+
+.search-medicine {
+    display: flex;
+    width: 100%;
+}
+
+.search-med-input > input#site-search {
+    margin-right: 0;
+    width: 100%;
+}
+
+.medicine-input-type,
+.your-location {
+
+    display: flex
+}
+
+input.add-to-list {
+    margin-left: 12px;
+    margin-right: 0;
+}
+
+.medicine-name span {
+    color: #9f9e9e;
+    float: right;
+    margin-right: 0;
+}
+
+.medicine-grup {
+    justify-content: space-between;
+    display: flex;
+}
+
+.medicine-price {
+    text-align: center;
+}
+
+.medicine-name p {
+    color: #9f9e9e;
+    display: inline-block;
+}
+
+.medicine-name p:hover {
+    color: #fff;
+}
+
+.medicine-price {
+    background: #001925 none repeat scroll 0 0;
+    margin-bottom: 20px;
+    margin-left: 13px;
+    margin-top: 20px;
+    padding: 16px 0;
+    width: 310px;
+}
+
+.medicine-name {
+    background: #001925 none repeat scroll 0 0;
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%
+}
+
+.medicine-price > h4 {
+    padding: 10px 0;
+    color: #fff;
+}
+
+.total-price {
+    border-top: 1px solid #6D6D6D;
+}
+
+.total-price > h6 {
+    margin-top: 6px;
+}
+
+.total-price span {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.medicine-location > input {
+    width: 100%;
+}
+
+.medicine-location {
+    margin-right: 15px;
+    width: 66%;
+}
+
+.your-location input.submit {
+    background: #12becd none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-weight: 600;
+    height: 46px;
+    width: 32%;
+}
+
+.submit {
+    cursor: pointer;
+    transition: all .3s ease
+}
+
+.submit:hover {
+    background: #023955 !important;
+}
+
+.submit.mr10 {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.medicine-location > input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+}
+
+/*========= 1.14 Footer Area Start =========*/
+
+.footer-area.section-padding {
+    border-top: 1px solid #ededed;
+    padding: 60px 0 100px;
+}
+
+.single-footer-item {
+    margin-top: 40px;
+}
+
+.footer-heading > h2 {
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.footer-social {
+    margin-top: 30px;
+}
+
+.footer-social li {
+    display: inline-block;
+
+}
+
+.footer-social ul li a {
+    background: #12becd none repeat scroll 0 0;
+    display: block;
+    height: 36px;
+    padding-top: 5px;
+    text-align: center;
+    width: 36px;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.footer-social ul li a:hover {
+    background: #023955;
+}
+
+.single-footer-item .popular-post-all-content .zoom {
+    min-width: 70px !important;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.photo-gallery .zoom {
+    width: 33%;
+}
+
+
+.newsletter {
+    margin-top: 25px;
+}
+
+.footer-email input {
+    background: #b5f9fe none repeat scroll 0 0;
+    border: medium none;
+    padding: 10px;
+}
+
+.foot-email {
+    width: 72%;
+}
+
+.footer-email {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+
+/*Copy Right*/
+.copy-right {
+    background: #023955;
+}
+
+.copy-right p {
+    background: #12becd;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/*========= Footer Area End =========*/
+
+/*========= 1.1 About-Page  =========*/
+.page {
+    background: url(../img/about/about--top-bg.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    color: #fff
+}
+
+.page::after {
+    position: absolute;
+    content: "";
+    background: #023F5E;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .9;
+    z-index: -1
+}
+
+.page-content > p {
+    font-size: 17px;
+    padding: 15px 92px;
+}
+
+/*============ 1.1 FAQ Area Start    ================ */
+
+#accordion {
+    width: 100%
+}
+
+.btn.btn-link {
+    color: #12BECD;
+    font-size: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.btn.btn-link::after {
+    position: absolute;
+    font-family: 'FontAwesome';
+    content: "\f068";
+    left: 100%;
+
+}
+
+.btn.btn-link.collapsed {
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: #003F5F;
+    text-transform: capitalize;
+
+}
+
+.btn.btn-link.collapsed:hover {
+    text-decoration: none;
+    color: #12BECD;
+
+}
+
+.btn.btn-link.collapsed::after {
+    position: absolute;
+    font-family: 'FontAwesome';
+    content: "\f067";
+    left: 100%;
+    font-size: 13px
+}
+
+.card-header {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #a7a7a7;
+    padding: 6px 20px;
+    border-radius: 0 !important;
+}
+
+.card-body {
+    border-bottom: 1px solid #a7a7a7;
+    border-left: 1px solid #a7a7a7;
+    border-radius: 0 !important;
+    border-right: 1px solid #a7a7a7;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+#headingTwo.card-header {
+    border-top: 0 none;
+}
+
+#headingThree.card-header {
+    border-top: 0 none;
+}
+
+/*=========== FAQ Area End =========== */
+/*=========== Mission Area Start =========== */
+.mission-area {
+    background: url(../img/about/hospital-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1
+}
+
+.mission-area::before {
+    background: #fff;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .9;
+}
+
+.mission-area .row {
+    align-items: center;
+}
+
+.mission-content {
+    margin-right: 76px;
+}
+
+.mission-content > h2 {
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+
+.mission-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 70px 0 0;
+}
+
+.mission-icon .zoom {
+    text-align: center;
+}
+
+.mission-icon .zoom h5 {
+    margin-top: 20px;
+    color: #535353;
+    font-weight: 600
+}
+
+/*=========== Mission Area End =========== */
+
+/*============= 1.1 Blog-Page  =========== */
+
+.feature-post > h2 a {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.single-user-dat img {
+    border-radius: 50%;
+}
+
+.single-user-dat img + h6 {
+    color: #3c3c3c;
+}
+
+.blog-post-left .feature-post > a {
+    margin-top: 30px;
+}
+
+.theme-btn.post-link {
+    background: #acadad none repeat scroll 0 0;
+    border: none;
+    color: #ffffff;
+    margin-right: 5px;
+    padding: 8px 20px;
+}
+
+.post-hr {
+    background: #bcbcbc none repeat scroll 0 0;
+    height: 1px;
+    margin-top: 25px;
+    width: 80%;
+}
+
+/*====View====*/
+.small-post-box {
+
+    padding: 50px 30px;
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(106, 129, 150, 0.3);
+    box-shadow: 0px 5px 16px 1px rgba(106, 129, 150, 0.3);
+    transition: all .3s ease;
+}
+
+.small-post-box:hover {
+    margin-top: -5px;
+    -webkit-box-shadow: 0px 5px 16px 1px rgba(54, 149, 235, 0.3);
+    box-shadow: 0px 5px 16px 1px rgba(54, 149, 235, 0.3);
+}
+
+.view {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view > h6 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.view span {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.view > h6:hover {
+    color: #424242;
+}
+
+.small-post-box > a {
+    font-size: 20px;
+    margin: 30px 0 5px;
+}
+
+/*====View====*/
+
+/*==== subscribe-area ====*/
+.subscribe-area h3 {
+    text-align: center;
+}
+
+.subscrib-follow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.space {
+    width: 48%;
+    margin-top: 10px
+}
+
+.subscrib-follow a {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.facebook {
+    background: #5e7dbf;
+}
+
+.facebook a span {
+    background: #3c5996;
+}
+
+.twitter {
+    background: #42B5FC;
+}
+
+.twitter a span {
+    background: #25A2EF;
+}
+
+.google {
+    background: #EF564E;
+}
+
+.google a span {
+    background: #D84038;
+}
+
+.linkedin {
+    background: #5DB5E3;
+}
+
+.linkedin a span {
+    background: #0077B5;
+}
+
+.pinterest {
+    background: #FA5B7C;
+}
+
+.pinterest a span {
+    background: #E13155;
+}
+
+.tumblr {
+    background: #526D8F;
+}
+
+.tumblr a span {
+    background: #34465D;
+}
+
+.space span {
+    font-size: 15px;
+    height: 32px;
+    margin-right: 5px;
+    padding-top: 4px;
+    text-align: center;
+    width: 32px;
+    display: inline-table;
+}
+
+/*==== subscribe-area ====*/
+/*==== newsletter-area ====*/
+.newsletter-box {
+    background: #F4F4F4;
+    margin-top: 50px;
+    padding: 40px 20px;
+    text-align: center;
+    border: 1px solid #c0c0c0
+}
+
+.newsletter-box h5,
+.recent-posts h5,
+.advertisement h5 {
+    color: #001926;
+    text-align: center
+}
+
+.newsletter-box > p {
+    margin: 25px 0 15px;
+}
+
+.newsletter-box input {
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+    width: 100%;
+}
+
+.newsletter-box .submit {
+    background: #04becf none repeat scroll 0 0;
+    border: 1px solid #04becf;
+    color: #ffffff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    transition: all .3s ease
+}
+
+/*==== newsletter-area ====*/
+/*==== recent-posts-area ====*/
+
+.recent-posts {
+    margin-top: 50px;
+}
+
+.recent-post-item {
+    margin-top: 30px;
+}
+
+.recent-post-item > a {
+    display: flex;
+    width: 100%;
+}
+
+.recent-post-item > a img {
+    height: 62px;
+    width: 62px;
+}
+
+.recent-post-content > p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.recent-post-content {
+    margin-left: 10px;
+}
+
+.recent-post-content > h6 {
+    color: #5c5f71;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+/*==== recent-posts-area ====*/
+/*==== advertisement ====*/
+.advertisement {
+    margin-top: 50px;
+}
+
+.advertisement-img img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+/*==== advertisement ====*/
+/*=========== Blog page End =========== */
+
+/*=========== 1.2 Blog-Details-Page  =========== */
+
+.blog-details-post-time {
+    align-items: center;
+    display: flex;
+    margin: 30px 0;
+}
+
+.blog-details-post-time > h6 {
+    margin-right: 40px;
+}
+
+.blog-details-post-time h6:hover {
+    color: #000;
+}
+
+.blog-details-quote {
+    margin: 100px 0;
+    padding: 0 100px;
+    position: relative
+}
+
+.blog-details-quote::after {
+    position: absolute;
+    font-family: 'FontAwesome';
+    content: "\f10d";
+    left: 20px;
+    top: -40px;
+    font-size: 40px;
+    color: #04becf;
+}
+
+.blog-details-quote::before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    content: "\f10e";
+    right: 30px;
+    bottom: -40px;
+    font-size: 40px;
+    color: #04becf;
+}
+
+.blog-details-quote > h6 {
+    color: #001926;
+    line-height: 27px;
+}
+
+.share-post {
+    align-items: center;
+    display: flex;
+    margin: 50px 0 40px;
+}
+
+.share-post-social {
+    margin-left: 50px;
+}
+
+.share-post-social > a {
+    font-size: 20px;
+    margin-left: 29px;
+}
+
+.next-prev-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-post span {
+    margin-left: 5px;
+}
+
+.prev-post span {
+    margin-right: 9px;
+}
+
+.prev-post {
+    text-align: right;
+}
+
+.next-prev-post p {
+    font-weight: 600;
+    margin-top: 18px;
+    text-transform: uppercase;
+}
+
+.post-comment-box {
+    margin: 50px 0;
+}
+
+.post-comment-box h5 {
+    font-weight: 700;
+}
+
+.post-comment-box > p {
+    margin: 10px 0 30px;
+}
+
+.post-comment-100 textarea {
+    border: 1px solid #000;
+    color: #000;
+    padding: 15px 20px;
+}
+
+.pos-comment-48 {
+    width: 48%;
+}
+
+.pos-comment-48 input,
+.post-comment-100 input {
+    width: 100%;
+}
+
+.text-group {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.post-submit {
+    margin-top: 30px;
+}
+
+.post-comment-box form textarea {
+    border: 1px solid #D5D5D5;
+}
+
+.post-comment-box form input {
+    border: 1px solid #D5D5D5;
+    padding: 10px;
+}
+
+.submit.theme-btn {
+    background: #04becf;
+    border: medium none;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.submit.theme-btn.theme-btn::after {
+    border: medium none;
+}
+
+/*===========  Blog-details page End=========== */
