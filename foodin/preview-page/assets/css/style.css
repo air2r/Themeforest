@@ -1,0 +1,161 @@
+/*================= 1.1 Header Area ===============*/
+
+
+.header-area {
+    align-items: center;
+    background: rgba(0, 0, 0, 0) url("../img/restaurant.jpg") repeat scroll center center / cover;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.header-area::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    background: -moz-linear-gradient(top, #00000 0%, #FFFFFF 100%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(top, #00000 0%, #FFFFFF 100%, #FFFFFF 100%);
+    background: linear-gradient(to bottom, #00000 0%, #FFFFFF 100%, #FFFFFF 100%);
+    opacity: .7;
+    z-index: -1;
+}
+.logo > img {
+  width: 200px;
+}
+.header-area h1 {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    padding: 40px;
+    text-shadow: 0 1px 3px #000000;
+    text-transform: capitalize;
+}
+
+.theme-color1 img {
+    height: 9px;
+    margin-left: 10px;
+    width: 27px !important;
+    position: absolute;
+    top: 50%;
+    right: 23px;
+    transform: translateY(-50%);
+      transition: all .3s ease;
+}
+
+.theme-color1 {
+    background: #fe7129;
+    color: #FDFDFD;
+    font-family: poppins;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 15px 60px 15px 25px;
+    position: relative;
+    text-transform: capitalize;
+    display: inline-block;
+      transition: all .3s ease;
+}
+
+.theme-color1:hover {
+    -webkit-box-shadow: 0px 10px 14px -11px rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 10px 14px -11px rgba(0, 0, 0, 0.87);
+}
+
+.theme-color1:hover {
+    color: #ffffff;
+}
+
+.theme-color1:hover img {
+    right: 10px;
+}
+
+.section-heading h2 {
+    margin-bottom:10px;
+}
+
+
+footer p {
+  background: #ffffff none repeat scroll 0 0;
+  padding: 20px 0;
+}
+
+
+.chooese-item {
+  height: 550px;
+  transition: all 5s ease-in-out 0s;
+  width: 100%;
+}
+.black-1{
+  background: rgba(0, 0, 0, 0) url("../img/black/b-1.jpg") repeat scroll 0 0 / cover ;
+}
+.black-2{
+  background: rgba(0, 0, 0, 0) url("../img/black/b-2.jpg") repeat scroll 0 0 / cover ;
+}
+.black-3{
+  background: rgba(0, 0, 0, 0) url("../img/black/b-3.jpg") repeat scroll 0 0 / cover ;
+}
+.black-4{
+  background: rgba(0, 0, 0, 0) url("../img/black/b-4.jpg") repeat scroll 0 0 / cover ;
+}
+.black-5{
+  background: rgba(0, 0, 0, 0) url("../img/black/b-5.jpg") repeat scroll 0 0 / cover ;
+}
+.black-6{
+  background: rgba(0, 0, 0, 0) url("../img/black/b-6.jpg") repeat scroll 0 0 / cover ;
+}
+.black-7{
+  background: rgba(0, 0, 0, 0) url("../img/black/b-7.jpg") repeat scroll 0 0 / cover ;
+}
+.black-8{
+  background: rgba(0, 0, 0, 0) url("../img/black/b-8.jpg") repeat scroll 0 0 / cover ;
+}
+.white-1{
+  background: rgba(0, 0, 0, 0) url("../img/white/w-1.jpg") repeat scroll 0 0 / cover ;
+}
+.white-2{
+  background: rgba(0, 0, 0, 0) url("../img/white/w-2.jpg") repeat scroll 0 0 / cover ;
+}
+.white-3{
+  background: rgba(0, 0, 0, 0) url("../img/white/w-3.jpg") repeat scroll 0 0 / cover ;
+}
+.white-4{
+  background: rgba(0, 0, 0, 0) url("../img/white/w-4.jpg") repeat scroll 0 0 / cover ;
+}
+.white-5{
+  background: rgba(0, 0, 0, 0) url("../img/white/w-5.jpg") repeat scroll 0 0 / cover ;
+}
+.white-6{
+  background: rgba(0, 0, 0, 0) url("../img/white/w-6.jpg") repeat scroll 0 0 / cover ;
+}
+.white-7{
+  background: rgba(0, 0, 0, 0) url("../img/white/w-7.jpg") repeat scroll 0 0 / cover ;
+}
+.white-8{
+  background: rgba(0, 0, 0, 0) url("../img/white/w-8.jpg") repeat scroll 0 0 / cover ;
+}
+
+.chooese-item:hover {
+    background-position: bottom;
+}
+
+.theme-page {
+  font-size: 27px;
+  font-weight: 700;
+  margin: 20px 0 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mt-b-100{
+    margin: 100px 0
+}
+
+.theme-area h2 {
+  text-align: center;
+    margin-top: 100px
+}

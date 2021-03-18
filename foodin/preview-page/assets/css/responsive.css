@@ -1,0 +1,52 @@
+/* (1366x768) WXGA Display */
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {}
+
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.header-area h1 {
+
+  font-size: 46px;
+  line-height: 60px;
+  padding: 40px;
+
+}
+}
+  
+
+
+/*		Tablet Layout: 768px.	*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-area h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 22px;
+
+}
+
+}
+    
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+    .header-area h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 22px;
+
+}
+.chooese-item {
+  height: 400px;
+}
+
+}
+    
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
