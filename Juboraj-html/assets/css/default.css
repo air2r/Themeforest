@@ -1,0 +1,222 @@
+/*=============================================================
+fonts
+=============================================================*/
+@import url('https://fonts.googleapis.com/css?family=Anton|Source+Sans+Pro:300,400,600,700');
+
+/*=============================================================
+html and body
+=============================================================*/
+html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181818;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Anton', sans-serif;
+*/
+/*=============================================================
+styles
+=============================================================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    color: #2a2a2a;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a .fa-long-arrow-alt-right {
+    color: #d7940b;
+}
+
+p {
+    margin: 0;
+}
+button, input, optgroup, select, textarea{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*=============================================================
+padding
+=============================================================*/
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-heading p {
+    padding: 25px 0;
+}
+
+.section-heading.black-bg h2 {
+    color: #fff;
+}
+
+.section-heading.black-bg p {
+    color: #bebebe;
+}
+.team-area .section-heading h2,
+.hero-area .section-heading h2,
+.about-area .section-heading h2,
+.project-area .section-heading h2 {
+    line-height: 60px;
+}
+
+a.juboraj-btn {
+    display: inline-block;
+    text-transform: capitalize;
+    color: #161616;
+    font-weight: 600;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+a.juboraj-btn .fa-long-arrow-alt-right {
+    margin-left: 5px;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+a.juboraj-btn:hover .fa-long-arrow-alt-right {
+    margin-left: 15px;
+}
+
+h2 span{
+    color: #d7940b;
+}
+
+/*=============================================================
+preloader
+=============================================================*/
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background: #fff url(../img/icon/loader.gif) center no-repeat;
+}
+
+/*=============================================================
+section
+=============================================================*/
+
+
+
+/*=============================================================
+mobile menu
+=============================================================*/
+
+/* mobile menu slicknav*/
+.slicknav_menu .slicknav_menutxt {
+    display: none;
+}
+
+.slicknav_menu {
+    display: none;
+    background: transparent;
+    margin-top: 21px;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #ffffff;
+    height: 2px;
+    width: 19px;
+    margin: 3px 0px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.slicknav_btn {
+    background-color: transparent;
+    position: relative;
+    margin-top: -48px;
+    cursor: pointer;
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(2) {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(1) {
+    -webkit-transform: rotate(45deg) translate(1px, 7px);
+    transform: rotate(45deg) translate(1px, 7px);
+}
+
+.slicknav_menu .slicknav_open .slicknav_icon-bar:nth-child(3) {
+    -webkit-transform: rotate(-45deg) translateY(-6px);
+    transform: rotate(-45deg) translateY(-6px);
+}
+
+.slicknav_menu {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.slicknav_nav {
+    background: #202020;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.slicknav_nav a:hover {
+    background: #fefefe;
+    border-radius: 0;
+}
+
+.slicknav_nav a {
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+}
+
+.slicknav_nav .slicknav_arrow {
+    float: right;
+}
+
+.slicknav_nav .slicknav_row:hover,
+.slicknav_nav .slicknav_row:hover .slicknav_arrow {
+    border-radius: 0;
+    background-color: #3c3333;
+}
+
