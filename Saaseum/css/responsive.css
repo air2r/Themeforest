@@ -1,0 +1,451 @@
+@media (max-width: 1024px){
+  header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .member {
+    float: none;
+  }
+  .subscribe__image {
+    margin-right: 150px;
+    padding-bottom: 100px;
+  }
+  .subscribe__image img {
+    top: 50px;
+    position: relative;
+  }
+  .play-video a {
+    top: 41%;
+  }
+}
+@media (max-width: 768px){
+  body{
+     font-size: 14px;
+  }
+  h1{
+     font-size: 2.1em;
+  }
+  h2{
+     font-size: 2em;
+  }
+  img {
+    width: 100%;
+  }
+  header {
+    position: fixed;
+    background: -webkit-linear-gradient(315deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+    background: -o-linear-gradient(315deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+    background: -ms-linear-gradient(315deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+    background: -moz-linear-gradient(315deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+    background: linear-gradient(135deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+  }
+  .navbar-light .navbar-toggler {
+      border-color: rgba(255,255,255,.6);
+  }
+  .navbar-light .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+  }
+  .left-menu{
+    position: relative;
+    left: 0;
+    transform: none;
+  }
+  .navbar-center {
+      position: relative;
+      left: 0;
+      transform: unset;
+  }
+  .navbar-center {
+    position: relative;
+  }
+  .right-menu {
+    position: relative;
+    text-align: left;
+    padding-left: 13px;
+    padding-top: 9px;
+  }
+  .right-menu li {
+    display: block; 
+    padding-right: 20px;
+    padding-bottom: 8px;
+  }
+  .right-menu li span img {
+    position: relative;
+    left: 4px;
+    top: 0px;
+    width: auto;
+  }
+  /**************** Process ****************/
+  #process {
+      padding-bottom: 65px;
+  }
+  .processes {
+      padding-bottom: 40px;
+  }
+  /**************** Benifits ****************/
+  .benefits {
+      overflow: hidden;
+      padding-bottom: 30px;
+  }
+  /**************** Question ****************/
+  #questions .feature-image {
+    padding-bottom: 42px;
+  }
+  /**************** Member ****************/
+  .member {
+    float: none;
+  }
+  /**************** Glance ****************/
+  .glance-feature-image {
+      padding-top: 53px;
+  }
+  .play-video a {
+    top: 55%;
+  }
+  /**************** Partner ****************/
+  #partner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .our-partner {
+      position: unset; 
+      top: unset; 
+      transform: unset;
+  }
+  /**************** Feature ****************/
+  .responsive-space {
+      padding-bottom: 60px;
+  }
+  .ipad-float{
+    float: right;
+  }
+  .text-image-text, .feature-so {
+    position: relative;
+  }
+  .responsive-margin-30 {
+    margin-bottom: 60px!important;
+  }
+  /**************** Subscribe ****************/
+  .subscribe__text {
+    float: none;
+    overflow: hidden;
+    margin-right: 0;
+    padding-left: 0px;
+    padding-bottom: 0;
+  }
+  .subscribe__form {
+      padding-top: 30px;
+      text-align: right;
+  }
+  .subscribe__image {
+    margin-right: 30px;
+    padding-bottom: 0px;
+  }
+  .subscribe__image img {
+    top: 0px;
+    position: relative;
+  }
+  /**************** Purchase ****************/
+  #purchase {
+      padding-top: 70px;
+  }
+  .purchase__title h1 {
+      font-size: 2.1em;
+  }
+}
+@media (max-width: 576px){
+/**************** Defualt ****************/
+  body{
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  h1{
+        font-size:1.3em
+    }
+  h2{
+        font-size:1.25em
+    }
+  h3{
+        font-size:1.2em
+    }
+  h4{
+        font-size:1.15em
+    }
+  h5{
+        font-size:1.10em
+    }
+  h6{
+        font-size:.857em
+    }
+  p{
+    font-size: 1em;
+    font-weight: 300;
+  }
+  .navbar-light .navbar-toggler {
+      border-color: rgba(255,255,255,.6);
+  }
+  .navbar-light .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+  }
+  header {
+    background: -webkit-linear-gradient(315deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+    background: -o-linear-gradient(315deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+    background: -ms-linear-gradient(315deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+    background: -moz-linear-gradient(315deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+    background: linear-gradient(135deg, rgb(76, 181, 255) 0%, rgb(137, 130, 247) 100%);
+  }
+  .navbar-light .navbar-nav .nav-link {
+      color: #ffffff;
+      padding: 7px 14px;
+  }
+  .left-menu{
+    position: relative;
+    left: 0;
+    transform: none;
+  }
+  .navbar-center {
+      position: relative;
+      left: 0;
+      transform: unset;
+  }
+  .navbar-center {
+    position: relative;
+  }
+  .right-menu {
+    position: relative;
+    text-align: left;
+    padding-left: 13px;
+    padding-top: 9px;
+  }
+  .right-menu li {
+    display: block; 
+    padding-right: 20px;
+    padding-bottom: 8px;
+  }
+  .right-menu li span img {
+    position: relative;
+    left: 4px;
+    top: 0px;
+  }
+  .titles__subtitle-pt {
+      padding-bottom: 42px;
+  }
+  .title-left .sub-title {
+      padding-bottom: 37px;
+  }
+  /**************** Slider ****************/
+  #slider {
+    height: unset;
+    padding-bottom: 55px;
+  }
+  #slider .verticle-align-tm {
+      position: unset;
+      top: unset;
+      transform: unset;
+  }
+
+  .slider-content {
+    height: auto;
+    padding-top: 122px;
+  }
+  .slider-content.light-bg {
+      padding-top: 42px;
+  }
+  .slider-title {
+    padding-bottom: 17px;
+  }
+  /**************** Process ****************/
+  #process {
+      background-color: #ffffff;
+      padding-top: 55px;
+      padding-bottom: 17px;
+  }
+  .processes__feature-image {
+    margin-bottom: 16px;
+  }
+  .best__feature-image img,
+  .processes__feature-image img {
+    max-width: 200px;
+}
+.processes__details span {
+    top: -7px;
+}
+.processes {
+    padding-bottom: 45px;
+}
+  /**************** Best Position ****************/
+  #best-position {
+      padding-top: 54px;
+      padding-bottom: 30px;
+  }
+  .best {
+    text-align: center;
+  }
+  .best__feature-image {
+    float: none;
+  }
+  .best__title {
+    padding-top: 22px;
+    padding-bottom: 10px;
+}
+  /**************** Benefits ****************/
+  #benefits {
+      padding-top: 54px;
+      padding-bottom: 60px;
+  }
+  .benefits {
+      overflow: hidden;
+      padding-bottom: 25px;
+  }
+  /**************** Questions ****************/
+  #questions {
+      padding-top: 54px;
+      padding-bottom: 60px;
+  }
+  #questions .feature-image {
+    padding-bottom: 60px;
+  }
+  /**************** Members ****************/
+  #members {
+      padding-top: 54px;
+      padding-bottom: 30px;
+  }
+  .member {
+    float: none;
+    margin-right: 0px;
+  }
+  /**************** Glance ****************/
+  #glance {
+      padding-top: 54px;
+      padding-bottom: 60px;
+  }
+  .play-video a {
+    top: 59.5%;
+  }
+  /**************** Work ****************/
+  #work {
+      padding-top: 54px;
+      padding-bottom: 15px;
+  }
+
+  .work-feature-image img {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+  .work-details {
+      padding-bottom: 40px;
+      text-align: center;
+  }
+
+  /**************** Partner ****************/
+    #partner {
+        padding-bottom: 0px;
+    }
+  .our-partner {
+      position: unset;
+      top: unset;
+      transform: unset;
+      padding-top: 50px;
+      padding-bottom: 55px;
+  }
+  /**************** Pt tab ****************/
+  #pt-tabs {
+      padding-top: 54px;
+      padding-bottom: 60px;
+  }
+  .pt-tabs .nav-item a h5 {
+    display: none;
+  }
+  .pt-tabs .tab-content {
+      padding: 30px 15px;
+  }
+  .responsive-space {
+      padding-bottom: 45px;
+  }
+  .pt-tabs .tab-content h2 {
+      padding-bottom: 15px;
+  }
+  .padding-top-50 {
+      padding-top: 0px;
+  }
+  /**************** Feature ****************/
+  #feature-so {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .responsive-space {
+    padding-bottom: 27px;
+  }
+  .feature-so {
+    position: relative;
+    float: none;
+    top: unset;
+    transform: unset;
+  }
+  .feature-so-item {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px!important;
+  }
+  /**************** Subscribe ****************/
+  #subscribe-form {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .subscribe {
+    padding: 60px 30px;
+    background-position: center;
+  }
+  .subscribe__image {
+    float: none;
+    margin-right: 0;
+  }
+  .subscribe__image img {
+    width: 100%;
+  }
+  .subscribe__text {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    margin-right: 0;
+    text-align: center;
+  }
+  .subscribe__form .email {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .subscribe__form {
+      text-align: center;
+  }
+  .subscribe__btn {
+    margin-left: 0;
+  }
+  /**************** Purchase ****************/
+  #purchase {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .purchase__title {
+    padding-bottom: 40px;
+  }
+  .purchase__title h1 {
+    font-size: 1.3em;
+  }
+  /**************** Contact ****************/
+  #footer {
+    padding-top: 25px;
+  }
+  .contact__url {
+    text-align: center;
+  }
+  .contact__details {
+      padding-bottom: 30px;
+  }
+  .contact__share-icon {
+      margin-bottom: 46px;
+  }
+  .contact .scroll {
+      padding-bottom: 40px;
+  }
