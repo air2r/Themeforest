@@ -1,0 +1,1127 @@
+/* (1366x768) WXGA Display */
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {}
+
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .position3 {
+        display: none
+    }
+
+    .hero2 h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .about-item {
+        padding: 30px 14px;
+
+    }
+
+    .about-item h3 {
+        margin: 20px 0 15px;
+    }
+
+    .mission-content h3 {
+        margin-bottom: 10px;
+    }
+
+    .our-menu-area::after {
+        display: none;
+
+    }
+
+    .menu-content h4 {
+        font-size: 20px;
+        line-height: 23px;
+
+    }
+
+  .menu-content {
+  font-size: 17px;
+  margin-left: 20px;
+  width: 64%;
+}
+
+
+    .one-item-content {
+        margin-right: -290px;
+        width: 700px;
+    }
+
+    .all-client .owl-nav button {
+        left: -155px;
+
+    }
+
+    .all-client .owl-next {
+        right: -155px;
+    }
+
+    .searchTerm {
+        padding: 0 15px;
+    }
+
+    .hero-area .slide-overlay .container::after,
+    .hero-area .slide-1 .container::after {
+        width: 70%;
+    }
+
+    .corporate-client h2 {
+        font-size: 27px;
+    }
+
+    /*=======About Page ==========*/
+    .glorious::after {
+        width: 35%;
+    }
+
+    .location-card {
+        padding: 30px 15px;
+    }
+
+    .location-card > p {
+        font-size: 15px;
+    }
+
+    /* ========= Blog Details page CSS ================*/
+    .post-reply input[id='name'] {
+        margin-right: 20px;
+        width: 48%;
+    }
+
+    .post-reply input[type="email"] {
+        width: 48%;
+    }
+
+    .blog-img img {
+        height: 514px;
+    }
+
+    /* ========== 1.1 Blog page CSS ================*/
+
+    .single-rtd {
+        font-size: 14px;
+        padding: 0 6px 0 0;
+    }
+
+    .single-rtd h5 {
+        font-size: 11px;
+        padding-left: 5px;
+    }
+
+
+}
+
+
+/*		Tablet Layout: 768px.	*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .t-m-mt-30 {
+        margin-top: 30px
+    }
+
+
+    .logo img {
+        padding: 10px 0;
+        width: 80%;
+    }
+
+    .position3 {
+        display: none
+    }
+
+    .hero2 h1 {
+        font-size: 45px;
+    }
+.hero-area .row {
+    align-items: center;
+    height:550px
+}
+    .hero-area .slide-overlay .container::after,
+    .hero-area .slide-1 .container::after {
+        width: 100%;
+    }
+
+    .hero-area .owl-dots {
+        display: none;
+
+    }
+
+    .like-us.small-heading {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .history-area .like-us {
+        margin-bottom: 100px;
+        margin-top: 0;
+    }
+
+    .like-us p {
+        width: 100%;
+    }
+
+    .menu-content {
+        width: 66%;
+    }
+
+    .our-app-area .like-us {
+        margin-bottom: 60px;
+    }
+
+    .home-blog::after {
+        display: none;
+    }
+
+    .counter-value {
+        font-size: 30px;
+        line-height: 25px;
+        margin: 25px 0;
+    }
+
+    .single-counter h4 {
+        font-size: 20px;
+    }
+
+    .client-photo {
+        text-align: center;
+    }
+
+    .one-item-content {
+        bottom: 0px;
+        margin-right: 0;
+        opacity: 0;
+        width: 100%;
+    }
+
+    .active.center .one-item-content {
+        bottom: 0;
+        margin-right: 0;
+        opacity: 1;
+        transition: all 0.3s ease-in 0s;
+        visibility: visible;
+        width: 100%;
+    }
+
+    .all-client .owl-nav button {
+        left: -30px;
+    }
+.all-client .owl-nav button {
+  top: 58%;
+}
+    .all-client .owl-next {
+        right: -30px;
+    }
+
+
+    .our-menu-area::after {
+        display: none;
+
+    }
+
+    .corporate-client h2 {
+        font-size: 27px;
+    }
+
+    /*=======About Page Stat===========*/
+
+    .glorious::after {
+        display: none;
+
+    }
+
+    .glorious .small-heading {
+        padding: 50px 30px 60px;
+        text-align: center;
+    }
+
+    .glorious .small-heading > h2 {
+        font-size: 30px;
+    }
+
+    .mission-img img {
+        margin: 0 0 30px;
+    }
+
+    .blog-right::after,
+    .blog-left::after {
+        width: 100%;
+
+    }
+
+    .location-card {
+        padding: 30px 10px;
+    }
+
+    .location-card > p {
+        font-size: 14px;
+    }
+
+    .location-card > p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .location-card .theme-color1 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .mission-content.blog-item-2 {
+        margin-bottom: 40px;
+    }
+
+    .single-rtd h5 {
+        font-size: 11px;
+
+    }
+
+    .mission-content h3 + p {
+        margin-bottom: 35px;
+    }
+
+    /*=======About Page End===========*/
+
+    /* ========= 1.1 Blog Details page CSS ================*/
+
+    .post-reply input[id='name'] {
+        margin-right: 20px;
+        width: 48%;
+    }
+
+    .post-reply input[type="email"] {
+        width: 48%;
+    }
+
+    /*========= Blog Page ===========*/
+
+    .blog-2 img {
+        margin: 0;
+        width: 100%;
+    }
+
+    .row.middle.middle-left::after,
+    .row.middle.middle-right::after {
+        height: 100%;
+        right: 15px;
+        top: 0;
+        width: 96%;
+    }
+
+
+}
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+    
+    .hero-area .row {
+    height:500px
+}
+    p {
+        font-size: 15px
+    }
+
+    .blog-right::after,
+    .blog-left::after {
+        top: 0;
+        width: 100%;
+    }
+
+    /*======= Tab & Mobile  ====== */
+    .t-m-mt-30 {
+        margin-top: 30px
+    }
+
+    .m-mt-30 {
+        margin-top: 30px
+    }
+
+    .m-mt-50 {
+        margin-top: 50px
+    }
+
+    .m-mt-90 {
+        margin-top: 90px
+    }
+
+    .smb-50 {
+        margin-bottom: 50px;
+    }
+
+    .smb-30 {
+        margin-bottom: 30px;
+    }
+
+    .smb-20 {
+        margin-bottom: 20px;
+    }
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    .section-heading > p {
+        margin: 10px 0 0px;
+    }
+
+    .smt-50 {
+        margin-top: 50px
+    }
+
+    .section-heading h5 {
+        margin-bottom: 5px;
+    }
+
+    .section-heading h2 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .about-area::after {
+        display: none;
+    }
+
+    .about-item h3 {
+        font-size: 20px;
+        margin: 30px 0 10px;
+    }
+
+    .our-team .about-team {
+        margin-top: 30px;
+    }
+
+    .history-area .like-us {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .history-area.section-padding {
+        padding: 60px 0 0;
+    }
+
+    .logo img {
+        padding: 10px 0;
+        width: 80%;
+    }
+
+    .position3 {
+        display: none;
+    }
+
+
+    .hero2 p {
+        padding: 25px 15px;
+    }
+.hero2 h1 {
+  font-size: 24px;
+  line-height: 40px;
+}
+.hero2 p {
+    padding: 10px 15px 20px;
+}
+
+    .hero-area .slide-overlay .container::after,
+    .hero-area .slide-1 .container::after {
+        width: 100%;
+    }
+
+    .hero-area .owl-dots {
+        display: none;
+
+    }
+
+    .theme-color1 {
+        font-size: 14px;
+        padding: 10px 60px 10px 15px;
+
+    }
+
+    .like-us {
+        text-align: center;
+    }
+
+   .like-us h2 {
+    font-size: 25px;
+    margin: 5px 0 15px;
+    line-height: 35px;
+}
+
+    .like-us p {
+        width: 100%;
+    }
+
+    .our-menu-area::after {
+        display: none;
+    }
+
+    .our-menu-list ul li {
+        padding: 5px 10px;
+    }
+
+    .client-photo {
+        text-align: center;
+    }
+
+    .food-link {
+        width: 100%;
+    }
+.our-menu-list {
+  margin-bottom: 0;
+}
+    .single-menu-item {
+        border: medium none;
+
+    }
+
+    .our-menu-area::after {
+        display: none;
+
+    }
+
+    .menu-img {
+        border-right: medium none;
+    }
+
+    .menu-img > img {
+        width: 80%;
+    }
+
+    .menu-content {
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .menu-content > h4 {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    .menu-content p {
+        font-size: 13px;
+    }
+
+    .one-item-content {
+        bottom: -40px;
+        margin-right: 0;
+        opacity: 0;
+        width: 100%;
+    }
+
+    .menu-price {
+        margin-left: 5px;
+    }
+
+    .our-app-area .like-us {
+        margin-bottom: 30px;
+    }
+
+    .mission-content {
+        margin: 0 15px;
+        text-align: left;
+    }
+
+    .mission-content h3 + p {
+        margin-bottom: 35px;
+    }
+
+    .mission-content.blog-item-2 {
+        margin: 0 15px 30px;
+    }
+
+    .single-blog-content {
+        padding: 0 15px 30px;
+    }
+
+    .single-blog {
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    .single-blog a {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .mission-content a {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+
+    .public .single-rtd {
+        font-size: 13px;
+    }
+
+    .blog-card {
+        padding: 40px 15px;
+    }
+
+    .blog-card a {
+        margin: 15px 0 10px;
+        text-transform: capitalize;
+    }
+
+    .robo-time-date.public .single-rtd h5 {
+        font-size: 11px;
+        padding-left: 4px;
+    }
+
+    .home-blog::after {
+        display: none;
+    }
+
+   .counter-value {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 10px 0;
+}
+.single-counter img {
+  width: 60px;
+}
+    .single-photo-gallery h2 {
+        font-size: 15px;
+        line-height: 28px;
+        padding: 0;
+    }
+
+    .single-counter h4 {
+        font-size: 20px;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    .all-client {
+        margin-top: 50px;
+    }
+
+    .active.center .one-item-content {
+        bottom: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .one-item-content.text-center > p {
+        font-size: 15px;
+        line-height: 23px;
+         margin-top: 30px;
+    }
+    .one-item-content.text-center h4 {
+        font-size: 18px;
+        line-height: 23px;
+        margin: 15px 0 6px;
+    }
+
+
+    .delicious-content h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .delicious-content > h3 {
+        font-size: 18px;
+        margin: 10px 0 30px;
+    }
+
+
+    .footer-area::after {
+        opacity: 0.2;
+    }
+
+    .searchTerm {
+        height: 44px;
+
+    }
+
+    .searchButton {
+        height: 44px;
+        width: 60px;
+    }
+
+    .footer-content h4 {
+        margin-bottom: 30px;
+    }
+
+    .coppy-right > p {
+        margin: 20px 0 0;
+    }
+
+    .corporate-client h2 {
+        font-size: 25px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /*=======About Page Start===========*/
+
+    .position1 {
+        width: 70px;
+    }
+
+    .position4 {
+        height: 100px;
+    }
+
+    .page h2 {
+        color: #ffffff;
+        font-size: 21px;
+        margin-bottom: 0;
+    }
+
+    .page a {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .page span {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .glorious .small-heading {
+        padding: 50px 30px 60px;
+        text-align: center;
+    }
+
+    .glorious .small-heading > h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .glorious .small-heading p br {
+        display: none;
+    }
+
+    .about-all-team {
+        display: inline;
+    }
+
+    .about-team {
+        margin-right: 0;
+    }
+
+    .about-team img {
+        margin-top: 40px;
+
+    }
+
+    .about-team h4 {
+        font-size: 15px;
+    }
+
+    .glorious::after {
+        display: none;
+    }
+
+    .glorious .small-heading {
+        margin: 0;
+        padding: 40px 15px;
+    }
+
+    .mission-img img {
+        margin: 0 0 30px;
+
+    }
+
+    /*=======About Page End===========*/
+
+    /* ========= 1.1 Blog Details page CSS ================*/
+
+    .hero-area.blog-details-page h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .hero-area.blog-details-page a {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .heading-content p,
+    .heading-content span {
+        font-size: 14px;
+        padding-left: 8px;
+        text-transform: capitalize;
+    }
+
+    .blog-details h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .heading-content {
+        padding: 10px 0 25px;
+    }
+
+    .blog-heading-content h4 {
+        margin-top: 22px;
+        padding-bottom: 10px;
+    }
+
+    .blog-paragraph {
+        margin-top: 20px;
+    }
+
+    .blog-paragraph li {
+        margin: 10px 0px;
+    }
+
+    .blog-post-img {
+        margin: 20px 0;
+    }
+
+    .blog-post-img img {
+        width: 100%;
+    }
+
+    .blog-quote {
+        padding: 0;
+    }
+
+    .blog-quote::after {
+        display: none;
+    }
+
+    .blog-read-more h4 {
+        line-height: 24px;
+        margin: 20px 0;
+    }
+
+    .post-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .post-next {
+        margin-bottom: 20px;
+        width: 100%
+    }
+
+    .post-prev.text-right {
+        text-align: inherit !important;
+        margin-top: 20px;
+    }
+
+    .post-prev.text-right {
+        text-align: inherit !important;
+    }
+
+    .post-prev.text-right h4,
+    .post-prev.text-right p,
+        {
+        text-align: left !important
+    }
+
+    .related-post-single p {
+        line-height: 18px;
+    }
+
+    .post-card h5 {
+        font-size: 13px;
+    }
+
+    .post-social a {
+        padding: 10px 15px;
+    }
+
+    .related-post-content {
+        margin-top: 30px;
+    }
+
+    .related-post-content h4 {
+        margin-bottom: 15px !important;
+    }
+
+    .related-post-single h6 {
+        margin: 10px 0 8px;
+    }
+
+    .post-reply {
+        margin-top: 20px;
+    }
+
+    .blog-quote p::after {
+        display: none;
+
+    }
+
+    .post-reply h4 {
+        margin-bottom: 10px !important;
+    }
+
+    .post-reply .gym-btn {
+        padding: 6px 40px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .blog-details-right {
+        margin-top: 20px;
+    }
+
+    .post-item h4 {
+        line-height: 27px;
+        margin-bottom: 5px;
+    }
+
+    .post-reply input[id='name'] {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .post-reply input[type="email"] {
+        width: 100%;
+    }
+
+    .related-post-single img {
+        width: 100%;
+    }
+
+    /*========= Blog Page ===========*/
+
+    /*=======Contact page Page Start===========*/
+
+    .card-header {
+        padding: 2px 5px !important;
+    }
+
+    .btn.btn-link {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .card-body {
+        font-size: 14px;
+        line-height: 30px;
+        padding: 10px 20px;
+    }
+
+    /* ===== Offer Area ======== */
+    .offer-card {
+  padding: 15px 15px 30px;
+  width: 90%;
+}
+
+    .offer-card > h3 {
+        font-size: 18px;
+        padding: 0 0 5px;
+    }
+
+    .offer-card p + p {
+        margin-bottom: 20px;
+    }
+
+   .offer-card h3 + p {
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+
+    .offer-card h2 {
+        font-size: 25px;
+    }
+
+    .offer {
+        margin-top: 120px;
+    }
+
+    .main-blog .row.middle {
+        margin: 30px 0 0;
+    }
+
+    .social a {
+        font-size: 15px;
+        height: 30px;
+        padding: 3px;
+        width: 30px;
+    }
+
+    .single-service h3 {
+        font-size: 18px;
+        margin: 20px 0 10px;
+    }
+
+    .blog-card .single-rtd {
+        padding: 0 15px 10px 0;
+    }
+
+    .single-rtd h5 {
+        font-size: 11px;
+    }
+}
+
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.slicknav_nav {
+  width: 92%;
+}
+    .hero2 h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about-item h3 {
+        font-size: 22px;
+        margin: 30px 0 10px;
+    }
+
+    p {
+        font-size: 16px
+    }
+
+    .footer-content {
+        text-align: left;
+    }
+
+    .our-menu-area::after {
+        display: none;
+
+    }
+
+    .single-menu-item {
+        align-items: center;
+        display: flex;
+        border: none;
+    }
+
+    .menu-img {
+        border-right: none;
+
+    }
+
+    .menu-img img {
+        width: 100%;
+
+    }
+
+    .menu-content {
+        margin-left: 20px;
+        width: 60%;
+    }
+
+    .menu-content > h4 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .menu-content p {
+        line-height: 18px;
+    }
+
+    .ft-left {
+        float: left;
+        width: 50%;
+    }
+
+    .ft-right {
+        float: right;
+        width: 50%;
+    }
+
+    .app-icon {
+        font-size: 25px;
+    }
+
+    .app-content h5 {
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .single-blog-content {
+        padding: 0 15px 40px;
+        text-align: left;
+    }
+
+    .single-blog a {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .single-photo-gallery h2 {
+        font-size: 20px;
+        padding: 10px 0;
+
+    }
+
+    .main-blog {
+        text-align: center;
+    }
+
+    .blog-card .robo-time-date {
+        justify-content: flex-start;
+    }
+
+    .blog-card a {
+        margin: 15px 0 10px;
+        text-transform: capitalize;
+    }
+
+    .blog-card {
+        text-align: left;
+    }
+
+
+    /*=======About Page Start===========*/
+    .page h2 {
+        color: #ffffff;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .page a {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .page span {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .about-all-team {
+        display: flex;
+    }
+
+    .about-team {
+        margin-right: 15px;
+    }
+
+    .about-team h4 {
+        font-size: 15px;
+    }
+
+    .about-team img {
+        margin-top: 20px;
+    }
+
+    /*=======About Page End===========*/
+    /*=======Contact page Page Start===========*/
+
+    .card-header {
+        padding: 4px 10px !important;
+    }
+
+    .btn.btn-link {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .robo-time-date.public .single-rtd h5 {
+        font-size: 14px;
+        padding-left: 7px;
+    }
+
+    .blog-card .single-rtd h5 {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+}
